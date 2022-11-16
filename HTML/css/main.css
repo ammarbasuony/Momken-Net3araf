@@ -4,17 +4,20 @@
 body {
   margin: 0;
   background-color: #e2edf8;
+}
+
+/* Main Wrapper */
+.wrapper {
+  padding: 32px;
   min-height: 100vh;
   box-sizing: border-box;
 }
 
-.wrapper {
-  padding: 32px;
-}
-
 section {
   background-color: #fff;
+  box-sizing: border-box;
   border-radius: 30px;
   padding: 30px;
-  min-height: 100vh;
+  min-height: calc(100vh - 64px);
+  box-shadow: 0 -10px 29px rgba(89, 130, 171, 0.12);
 }
