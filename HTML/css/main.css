@@ -1,9 +1,55 @@
 @import url("responsive.css");
 
+/* Fonts */
+@font-face {
+  font-family: "Baloo";
+  src: url(../assets/fonts/BalooBhaijaan2-Bold.ttf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Baloo";
+  src: url(../assets/fonts/BalooBhaijaan2-SemiBold.ttf);
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Baloo";
+  src: url(../assets/fonts/BalooBhaijaan2-Medium.ttf);
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: "Baloo";
+  src: url(../assets/fonts/BalooBhaijaan2-Regular.ttf);
+  font-weight: 100;
+}
+
 /* Constants */
+html {
+  --main-color: #5982ab;
+  --secondary-color: #858585;
+  direction: rtl;
+}
+
 body {
   margin: 0;
   background-color: #e2edf8;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Baloo", sans-serif;
+  font-weight: 400;
+  margin: 0;
+}
+
+p {
+  margin: 0;
 }
 
 /* Main Wrapper */
@@ -20,4 +66,31 @@ section {
   padding: 30px;
   min-height: calc(100vh - 64px);
   box-shadow: 0 -10px 29px rgba(89, 130, 171, 0.12);
+}
+
+/* Top-Bar */
+.topbar {
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: left;
+}
+
+/* Header */
+.Main-Header {
+  text-align: center;
+}
+
+.Main-Header h1 {
+  color: var(--main-color);
+  font-size: 40px;
+  font-weight: 400;
+  font-family: "Baloo";
+}
+
+.Main-Header p {
+  color: var(--secondary-color);
+  font-size: 18px;
+  font-weight: 100;
+  font-family: "Baloo";
+  margin-top: 8px;
 }
