@@ -4,6 +4,14 @@
 
 /* Medium Devices: Desktop */
 @media (min-width: 768px) {
+  .Main-Header h1 {
+    font-size: 28px;
+  }
+
+  .Main-Header p {
+    font-size: 14px;
+  }
+
   .search-result {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -19,8 +27,31 @@
 
 /* Extra Large Devices: Desktop */
 @media (min-width: 1280px) {
+  .topbar .logo img {
+    width: 54px;
+  }
+
+  .Main-Header h1 {
+    font-size: 35px !important;
+  }
+
+  .Main-Header p {
+    font-size: 18px !important;
+  }
+
   .search-result {
     grid-template-columns: repeat(4, 1fr);
+  }
+
+  .search form button {
+    width: 105px !important;
+    height: 38px !important;
+    font-size: 16px !important;
+  }
+
+  .search form .clear {
+    top: 50% !important;
+    left: 130px !important;
   }
 
   .search-result .card .card-body .value {

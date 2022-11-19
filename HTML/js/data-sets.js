@@ -1,4 +1,4 @@
-export const gender = ["ذكر", "أنثى"];
+export const genders = ["أنثى", "ذكر"];
 
 export const months = [
   "يناير",

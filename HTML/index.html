@@ -35,23 +35,23 @@
               id="ID-Number"
               placeholder="رقم البطاقة ..."
             />
+            <div class="clear d-none">&#215;</div>
             <button>إبحث!</button>
           </form>
         </div>
 
         <!-- Search Result -->
-        <!-- <div class="search-result-placeholder">
+        <div class="search-result-placeholder">
           <p>إكتب أي رقم قومي عشان تظهرلك شوية بيانات ليه</p>
           <img
             src="assets/svg/Results-Placeholder.svg"
             alt="Search Illustration"
           />
         </div>
-        <div class="search-result"></div> -->
 
-        <div class="search-result">
+        <div class="search-result d-none">
           <div class="card gradient">قدرنا نعرف الأتي</div>
-          <div class="card">
+          <div class="card gender">
             <div class="card-header">
               <img src="assets/svg/Gender.svg" alt="Gender" />
               <div class="title">النوع</div>
@@ -61,7 +61,7 @@
               <div class="value">ذكر</div>
             </div>
           </div>
-          <div class="card">
+          <div class="card location">
             <div class="card-header">
               <img src="assets/svg/Location.svg" alt="Location" />
               <div class="title">محل الإقامة</div>
@@ -71,7 +71,7 @@
               <div class="value">كفر الشيخ</div>
             </div>
           </div>
-          <div class="card">
+          <div class="card birth-date">
             <div class="card-header">
               <img src="assets/svg/BirthDate.svg" alt="BirthDate" />
               <div class="title">تاريخ الميلاد</div>
@@ -90,6 +90,9 @@
         </footer>
       </section>
     </div>
+
+    <!-- Toast -->
+    <div id="toast"></div>
 
     <script src="js/app.js" type="module"></script>
   </body>
