@@ -1,0 +1,33 @@
+/* Small Devices: Wide-Screen Mobile */
+@media (min-width: 640px) {
+}
+
+/* Medium Devices: Desktop */
+@media (min-width: 768px) {
+  .search-result {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .search-result .card .card-body .value {
+    font-size: 40px;
+  }
+}
+
+/* Large Devices: Desktop */
+@media (min-width: 1024px) {
+}
+
+/* Extra Large Devices: Desktop */
+@media (min-width: 1280px) {
+  .search-result {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .search-result .card .card-body .value {
+    font-size: 30px !important;
+  }
+}
+
+/* Extra Extra Large Devices: Desktop */
+@media (min-width: 1536px) {
+}
