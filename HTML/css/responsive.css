@@ -1,5 +1,8 @@
 /* Small Devices: Wide-Screen Mobile */
 @media (min-width: 640px) {
+  footer a {
+    display: unset !important;
+  }
 }
 
 /* Medium Devices: Desktop */
