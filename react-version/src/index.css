@@ -1,0 +1,63 @@
+@import url("./assets/css/responsive.css");
+
+/* Fonts */
+@font-face {
+  font-family: "Baloo";
+  src: url(./assets/fonts/BalooBhaijaan2-Bold.ttf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Baloo";
+  src: url(./assets/fonts/BalooBhaijaan2-SemiBold.ttf);
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Baloo";
+  src: url(./assets/fonts/BalooBhaijaan2-Medium.ttf);
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: "Baloo";
+  src: url(./assets/fonts/BalooBhaijaan2-Regular.ttf);
+  font-weight: 100;
+}
+
+/* Constants */
+html {
+  --main-color: #5982ab;
+  --secondary-color: #858585;
+  direction: rtl;
+}
+
+body {
+  margin: 0;
+  background-color: #e2edf8;
+  font-family: "Baloo", sans-serif;
+  font-weight: 200;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Baloo", sans-serif;
+  font-weight: 400;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+.d-block {
+  display: block !important;
+}
+
+.d-none {
+  display: none !important;
+}

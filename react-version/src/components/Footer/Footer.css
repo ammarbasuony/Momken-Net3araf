@@ -1,0 +1,21 @@
+/* Footer */
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  padding: 20px 0;
+  background-color: #d3e2f2;
+  border-radius: 0 0 30px 30px;
+  color: #5982ab;
+  font-size: 14px;
+  font-weight: 200;
+}
+
+footer a {
+  color: #406385;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  display: block;
+}
