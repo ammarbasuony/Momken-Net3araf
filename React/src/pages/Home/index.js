@@ -18,7 +18,7 @@ const Home = () => {
 
   return (
     <div class="wrapper">
-      <section>
+      <section className="app">
         <Header />
         <Form
           searchInput={searchInput}

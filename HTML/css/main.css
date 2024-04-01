@@ -70,7 +70,7 @@ p {
   box-sizing: border-box;
 }
 
-section {
+section.app {
   background-color: #fff;
   box-sizing: border-box;
   border-radius: 30px;

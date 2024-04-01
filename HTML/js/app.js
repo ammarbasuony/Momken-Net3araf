@@ -1,7 +1,7 @@
 import { months, governorates, genders } from "./data-sets.js";
 import { showToast } from "./toast.js";
 
-const idValidationRegex =
+const isValidationRegex =
   /^([2-3]{1})([0-9]{2})([0-9]{2})([0-9]{2})([0-9]{2})[0-9]{3}([0-9]{1})[0-9]{1}$/;
 
 // DOM Elements
@@ -26,7 +26,7 @@ searchForm.addEventListener("submit", (e) => {
 
   // Validate Input
   if (!searchInput.value) return showToast("Please enter an ID");
-  if (!idValidationRegex.test(searchInput.value))
+  if (!isValidationRegex.test(searchInput.value))
     return showToast("Invalid ID");
 
   const centuryCode = searchInput.value[0];
